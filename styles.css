@@ -4,15 +4,16 @@ p{margin:0 10px 10px}
 a{text-decoration:none; color:#911c22;}
 
 div#container{text-align:left}
-div#container{max-width:1000px;margin:0 auto}
+div#container{width:1000px;margin:0 auto}
 
 div#header{background-color:#911c22;}
 div#header h1{height:60px;line-height:60px;margin:0;padding-left:30px;color:#F0F0F0}
 div#header p{margin:0;font-size:x-large;font-weight:bold;color:#F0F0F0}
 div#header{text-align:center;color:#F0F0F0}
 
-div#wrapper{overflow: auto;}
+div#wrapper{width:1000px}
 
+div#navigation{float:left;width:150px}
 div#navigation{background:#666666;padding-left:15px;}
 div#navigation ul{margin:15px 0; padding:0; list-style-type:none;}
 div#navigation li{margin-bottom:5px;}
@@ -40,20 +41,4 @@ blockquote{
 ul{
     margin-top:2px;
     padding-top:2px;
-}
-
-@media screen and (max-width: 800px) {
-  div#navigation,
-  div#content,
-  div#extra {
-    float: none;
-    width: 100%;
-    padding: 0;
-  }
-  div#navigation {
-    padding-left: 0; /* Remove padding for mobile view */
-  }
-  div#content p {
-    padding: 10px; /* Add padding inside content area */
-  }
 }
